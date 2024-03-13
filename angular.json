@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "CTP-APP:build:production"
+              "buildTarget": "CTP-APP:build:production"
             },
             "development": {
-              "browserTarget": "CTP-APP:build:development"
+              "buildTarget": "CTP-APP:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "CTP-APP:build"
+            "buildTarget": "CTP-APP:build"
           }
         },
         "test": {
