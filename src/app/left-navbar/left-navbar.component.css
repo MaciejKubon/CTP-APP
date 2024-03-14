@@ -18,10 +18,15 @@ button {
   height: 80px;
   background-color: bisque;
   border-radius: 20px;
+  transition: ease-in-out 500ms;
 }
 button:hover {
   cursor: pointer;
   background-color: yellow;
   transition: ease-in-out 500ms;
   box-shadow: 0px 0px 5px 2px grey;
+}
+.activeLab {
+  background-color: green;
+  transition: ease-in-out 500ms;
 }
